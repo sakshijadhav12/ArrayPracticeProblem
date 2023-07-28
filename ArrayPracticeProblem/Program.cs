@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("PRACTICE PROBLEM");
-            Console.WriteLine("Select your option \n1.Duplicate Elements \n2.Unique Elements \n3.FrequencyElements \n4.MinAndMax \n5.Print Design");
+            Console.WriteLine("Select your option \n1.Duplicate Elements \n2.Unique Elements \n3.FrequencyElements \n4.MinAndMax \n5.Print Design \n6.Print Design two");
             int option = int.Parse(Console.ReadLine()); 
             switch(option)
             {
@@ -29,6 +29,10 @@
                     PrintDesign printDesign = new PrintDesign ();
                     printDesign.Design();
                 break;
+            case 6:
+                    Print print = new Print();
+                    print.PrintDesign();
+                    break;
 
             }
 
