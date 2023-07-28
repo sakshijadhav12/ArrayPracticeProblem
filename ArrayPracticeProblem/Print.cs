@@ -11,8 +11,8 @@ namespace ArrayPracticeProblem
     {
         public void PrintDesign()
         {
-            int n = 7; // Number of rows in the pattern
-            int m = 7; // Number of columns in the pattern
+            int n = 7;
+            int m = 7;
 
             for (int i = 1; i <= n; i++)
             {
