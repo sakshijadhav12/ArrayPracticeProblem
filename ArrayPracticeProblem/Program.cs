@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("PRACTICE PROBLEM");
-            Console.WriteLine("Select your option \n1.Duplicate Elements \n2.Unique Elements \n3.FrequencyElements");
+            Console.WriteLine("Select your option \n1.Duplicate Elements \n2.Unique Elements \n3.FrequencyElements \n4.MinAndMax");
             int option = int.Parse(Console.ReadLine()); 
             switch(option)
             {
@@ -20,6 +20,10 @@
                 case 3:
                    FrequencyElements frequencyElements = new FrequencyElements ();
                     frequencyElements.Countfrequency();
+                    break;
+                case 4:
+                   MinAndMax minAndMax = new MinAndMax ();
+                    minAndMax.FindMinMax();
                     break;
 
             }
