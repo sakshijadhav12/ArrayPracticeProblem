@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("PRACTICE PROBLEM");
-            Console.WriteLine("Select your option \n1.Duplicate Elements \n2.Unique Elements \n3.FrequencyElements \n4.MinAndMax \n5.Print Design \n6.Print Design two");
+            Console.WriteLine("Select your option \n1.Duplicate Elements \n2.Unique Elements \n3.FrequencyElements \n4.MinAndMax \n5.Print Design \n6.Print Design two \n7.Sum of given Numbers");
             int option = int.Parse(Console.ReadLine()); 
             switch(option)
             {
@@ -32,6 +32,10 @@
             case 6:
                     Print print = new Print();
                     print.PrintDesign();
+                    break;
+               case 7:
+                    SumOfGivenNumbers sumOfGivenNumbers  = new SumOfGivenNumbers();
+                    sumOfGivenNumbers.SumOfDigits();
                     break;
 
             }
